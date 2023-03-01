@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,112 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+#quizOptions{
+  padding: 5% 10%;
+  border-style: solid;
+  border-color: green;
+  border-radius: 20px;
+
+}
+
+#quizDisplay{
+  margin: 5% 5%;
+  padding: 2% 2%;
+  border-style: solid;
+  border-color: green;
+  border-radius: 20px;
+}
+
+#Btn{
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 5% 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  height: 2%;
+}
+
+li{
+  display: inline-block; 
+	text-align: left; 
+  color: black;
+  padding: 20px;
+  user-select: none;
+}
+
+#answer{
+  color: black;
+  padding: 20px;
+}
+
+@media only screen and (max-width : 768px) {
+  li{
+    display: block;
+    text-align: center; 
+  }
+}
+
+
+#Btn:hover{
+  background-color: greenyellow; /* Green */
+  color: black;
+}
+
+.quizBtn{
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  width: auto;
+  height: 30px;
+}
+
+.quizBtn:hover{
+  background-color: greenyellow; /* Green */
+  color: black;
+}
+
+.quizBtnSelect{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 16px;
+  width: auto;
+  height: 30px;
+}
+
+
+
+.submitBtn{
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 5% 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  transition-duration: 0.2s;
+}
+
+.submitBtn:hover{
+  background-color: greenyellow; /* Green */
+  color: black;
 }
 
 .App-link {
